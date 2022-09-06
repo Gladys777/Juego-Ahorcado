@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Challenge 2 | Oracle Next Education</title>
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+
+    <header-component></header-component>
+
+    <main>
+        <section class="index" style="text-align:center;">
+            <button class="btn-iniciar-juego" id="iniciar-juego">INICIAR JUEGO</button>
+            <button class="btn" id="agregar-palabra">AGREGAR PALABRA</button>
+        </section>
+
+        <section class="ingresar-palabra" style="text-align: center;">
+            <textarea name="" class="text-input" id="input-nueva-palabra"
+                placeholder="Escriba una nueva palabra"></textarea>
+            <label for="input-nueva-palabra">(!) Máximo de ocho palabras</label>
+            <button class="btn-ppal" id="btn-agregar-continuar">AGREGAR Y CONTINUAR</button>
+            <button class="btn" id="btn-cancelar">CANCELAR</button>
+        </section>
+
+        <section class="jugar" style="text-align:center;">
+            <input type="" id="input-teclado">
+            <canvas id="ahorcado"></canvas>
+            <button class="btn-ppal" id="btn-nuevo-juego">NUEVO JUEGO</button>
+            <button class="btn" id="btn-desistir">DESISTIR</button>
+        </section>
+    </main>
+
+    <footer-component></footer-component>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/botones.js"></script>
+    <script type="text/javascript" src="js/ahorcado.js"></script>
+    <script type="text/javascript" src="js/canvas.js"></script>
+
+</body>
+
+</html>
